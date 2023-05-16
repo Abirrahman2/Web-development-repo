@@ -23,7 +23,7 @@ h1{
     padding: 20px;
 
 }
-section{
+.flex{
     display: flex;
 }
 .noob{
@@ -44,10 +44,14 @@ section{
 .Main{
     background-image:url(back3.jpg);
     background-repeat: no-repeat;
+    background-position: normal;
    
 }
 body{
     margin:0;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 800;
+}
+.MAIN2{
+    margin: 0px;
 }
