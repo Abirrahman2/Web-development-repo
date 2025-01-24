@@ -1,0 +1,154 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 1px;
+    height: 3000px;
+    width: 3000px;
+}
+body {
+    display: flex;
+    justify-content: center; /* Centers .container horizontally */
+    align-items: center; /* Centers .container vertically */
+    margin: 0; /* Removes default body margins */
+    padding: 0;
+
+}
+
+.leftcolumn, .rightcolumn {
+    border: 1px solid rgb(20, 20, 16);
+    /*height: 3000px;*/
+    /*width: 25%;*/
+    background-color: rgb(238, 120, 81);
+    flex:1
+    
+}
+
+
+.middle {
+    border: 5px solid rgb(196, 83, 39);
+    margin: 5px;
+     flex: 2;
+    /*width: 70%;*/
+    /*height: 900px;*/
+    padding: 10px;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.box1{
+    /*display: flex;*/
+    border: 2px solid rgb(196, 83, 39);
+    padding: 5px;
+    background-color:  rgb(223, 212, 212);
+}
+.box2{
+
+    border: 2px solid rgb(196, 83, 39);
+    padding: 15px;
+    background-color:  rgb(223, 212, 212);
+}
+.box3type1{
+
+    border: 2px solid rgb(196, 83, 39);
+    padding: 20px;
+    width: 70%;
+    background-color: rgb(223, 212, 212);
+}
+.box3type2{
+
+    border: 2px solid rgb(196, 83, 39);
+    padding: 20px;
+    width: 30%;
+    background-color: rgb(223, 212, 212);
+}
+.box3type2 ul, .box3type2 li {
+    list-style-type: none; 
+    padding: 0;
+}
+.box3type2 li{
+
+    border: 2px solid rgb(196, 83, 39);
+    margin: 8px 0;
+    padding: 20px;
+    border: 1px solid rgb(196, 83, 39);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(17, 15, 15);
+    text-align: center;
+}
+
+
+
+.middlethree {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    gap: 5px;
+}
+
+.box2 {
+    width: 30%;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+}
+input[type="text"],
+select{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(183, 183, 233);
+
+}
+
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(183, 183, 233);
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    color: rgb(15, 14, 14);
+    background-color: rgb(230, 99, 99);
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(218, 42, 42);
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+   row-gap: 10px;
+   column-gap: 10px;
+}
+
